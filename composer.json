@@ -25,15 +25,24 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "phpunit/phpunit": "^5.7"
     },
     "require-dev": {
         "php": ">=5.6.0",
-        "codeclimate/php-test-reporter": "dev-master"
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpro/grumphp": "^0.12.0",
+        "jakub-onderka/php-parallel-lint": "^0.9.2",
+        "sensiolabs/security-checker": "^4.1",
+        "povils/phpmnd": "^1.1",
+        "sebastian/phpcpd": "^3.0",
+        "squizlabs/php_codesniffer": "^3.1",
+        "friendsofphp/php-cs-fixer": "^2.7",
+        "wearejust/grumphp-extra-tasks": "^2.1"
     },
     "autoload": {
         "psr-4": {
-            "Davaxi\\": "src/"
+            "Davaxi\\ServerSentEvents\\": "src/"
         }
     }
 }
